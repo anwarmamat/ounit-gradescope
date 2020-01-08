@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites>
+  <testsuite
+      id='0'
+      package='public'
+      name='public'
+      timestamp='2020-01-07T16:00:09'
+      hostname='anwar'
+      tests='14'
+      failures='0'
+      errors='0'
+      time='0.104358'>
+    <properties>
+      <property name='suite_name' value='public' />
+      <property name='cache_filename' value='/home/anwar/git/private/OCamlPrgs/Ounit-gradescope/_build/oUnit-$(suite_name).cache' />
+      <property name='display' value='false' />
+      <property name='results_style_1_X' value='false' />
+      <property name='verbose' value='false' />
+      <property name='health_check_interval' value='1.' />
+      <property name='testdata_dir' value='none' />
+      <property name='chooser' value='simple' />
+      <property name='output_html_dir' value='none' />
+      <property name='processes_kill_period' value='5.' />
+      <property name='runner' value='processes' />
+      <property name='shards' value='6' />
+      <property name='processes_grace_period' value='5.' />
+      <property name='log_encoding' value='utf-8' />
+      <property name='output_junit_file' value='log2.xml' />
+      <property name='output_file' value='/home/anwar/git/private/OCamlPrgs/Ounit-gradescope/_build/oUnit-$(suite_name)-$(shard_id).log' />
+    </properties>
+    <testcase name='public:0:rev_tup' classname='public:0:rev_tup' time='0.000241'>
+    </testcase>
+    <testcase name='public:1:max_tup' classname='public:1:max_tup' time='0.000234'>
+    </testcase>
+    <testcase name='public:2:abs' classname='public:2:abs' time='0.000224'>
+    </testcase>
+    <testcase name='public:3:area' classname='public:3:area' time='0.000218'>
+    </testcase>
+    <testcase name='public:4:volume' classname='public:4:volume' time='0.000568'>
+    </testcase>
+    <testcase name='public:5:equiv_frac' classname='public:5:equiv_frac' time='0.000587'>
+    </testcase>
+    <testcase name='public:6:factorial' classname='public:6:factorial' time='0.000398'>
+    </testcase>
+    <testcase name='public:7:pow' classname='public:7:pow' time='0.000381'>
+    </testcase>
+    <testcase name='public:8:tail' classname='public:8:tail' time='0.000468'>
+    </testcase>
+    <testcase name='public:9:log' classname='public:9:log' time='0.000513'>
+    </testcase>
+    <testcase name='public:10:len' classname='public:10:len' time='0.000595'>
+    </testcase>
+    <testcase name='public:11:contains' classname='public:11:contains' time='0.000402'>
+    </testcase>
+    <testcase name='public:12:var' classname='public:12:var' time='0.000355'>
+    </testcase>
+    <testcase name='public:13:scopes' classname='public:13:scopes' time='0.000414'>
+    </testcase>
+    <system-out>
+2020-01-07T16:00:09+00:00 anwar#00 I: Runner: processes
+2020-01-07T16:00:09+00:00 anwar#00 I: Chooser: simple
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration suite_name = &quot;public&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration cache_filename = &quot;/home/anwar/git/private/OCamlPrgs/Ounit-gradescope/_build/oUnit-$(suite_name).cache&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration display = &quot;false&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration results_style_1_X = &quot;false&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration verbose = &quot;false&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration health_check_interval = &quot;1.&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration testdata_dir = &quot;none&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration chooser = &quot;simple&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration output_html_dir = &quot;none&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration processes_kill_period = &quot;5.&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration runner = &quot;processes&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration shards = &quot;6&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration processes_grace_period = &quot;5.&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration log_encoding = &quot;utf-8&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration output_junit_file = &quot;log2.xml&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Configuration output_file = &quot;/home/anwar/git/private/OCamlPrgs/Ounit-gradescope/_build/oUnit-$(suite_name)-$(shard_id).log&quot;
+2020-01-07T16:00:09+00:00 anwar#00 I: Using 6 workers maximum.
+2020-01-07T16:00:09+00:00 anwar#00 I: Starting worker number anwar#01.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#01 started.
+2020-01-07T16:00:09+00:00 anwar#00 I: Starting worker number anwar#02.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#02 started.
+2020-01-07T16:00:09+00:00 anwar#00 I: Starting worker number anwar#03.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#03 started.
+2020-01-07T16:00:09+00:00 anwar#00 I: Starting worker number anwar#04.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#04 started.
+2020-01-07T16:00:09+00:00 anwar#00 I: Starting worker number anwar#05.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#05 started.
+2020-01-07T16:00:09+00:00 anwar#00 I: Starting worker number anwar#06.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#06 started.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:5:equiv_frac, public:4:volume, public:3:area, public:2:abs, public:1:max_tup, public:0:rev_tup.
+2020-01-07T16:00:09+00:00 anwar#01 I: Start test public:0:rev_tup.
+2020-01-07T16:00:09+00:00 anwar#02 I: Start test public:1:max_tup.
+2020-01-07T16:00:09+00:00 anwar#03 I: Start test public:2:abs.
+2020-01-07T16:00:09+00:00 anwar#04 I: Start test public:3:area.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:5:equiv_frac, public:4:volume, public:3:area, public:2:abs, public:1:max_tup, public:0:rev_tup.
+2020-01-07T16:00:09+00:00 anwar#01 I: Test public:0:rev_tup is successful.
+2020-01-07T16:00:09+00:00 anwar#02 I: Test public:1:max_tup is successful.
+2020-01-07T16:00:09+00:00 anwar#03 I: Test public:2:abs is successful.
+2020-01-07T16:00:09+00:00 anwar#04 I: Test public:3:area is successful.
+2020-01-07T16:00:09+00:00 anwar#05 I: Start test public:4:volume.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:5:equiv_frac, public:4:volume, public:3:area, public:2:abs, public:1:max_tup, public:0:rev_tup.
+2020-01-07T16:00:09+00:00 anwar#01 I: End test public:0:rev_tup.
+2020-01-07T16:00:09+00:00 anwar#02 I: End test public:1:max_tup.
+2020-01-07T16:00:09+00:00 anwar#03 I: End test public:2:abs.
+2020-01-07T16:00:09+00:00 anwar#04 I: End test public:3:area.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:5:equiv_frac, public:4:volume, public:3:area, public:2:abs, public:1:max_tup, public:0:rev_tup.
+2020-01-07T16:00:09+00:00 anwar#06 I: Start test public:5:equiv_frac.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:9:log, public:8:tail, public:7:pow, public:6:factorial, public:5:equiv_frac, public:4:volume.
+2020-01-07T16:00:09+00:00 anwar#04 I: Start test public:6:factorial.
+2020-01-07T16:00:09+00:00 anwar#03 I: Start test public:7:pow.
+2020-01-07T16:00:09+00:00 anwar#02 I: Start test public:8:tail.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:9:log, public:8:tail, public:7:pow, public:6:factorial, public:5:equiv_frac, public:4:volume.
+2020-01-07T16:00:09+00:00 anwar#01 I: Start test public:9:log.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:9:log, public:8:tail, public:7:pow, public:6:factorial, public:5:equiv_frac, public:4:volume.
+2020-01-07T16:00:09+00:00 anwar#05 I: Test public:4:volume is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:9:log, public:8:tail, public:7:pow, public:6:factorial, public:5:equiv_frac, public:4:volume.
+2020-01-07T16:00:09+00:00 anwar#05 I: End test public:4:volume.
+2020-01-07T16:00:09+00:00 anwar#04 I: Test public:6:factorial is successful.
+2020-01-07T16:00:09+00:00 anwar#03 I: Test public:7:pow is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:9:log, public:8:tail, public:7:pow, public:6:factorial, public:5:equiv_frac, public:4:volume.
+2020-01-07T16:00:09+00:00 anwar#06 I: Test public:5:equiv_frac is successful.
+2020-01-07T16:00:09+00:00 anwar#04 I: End test public:6:factorial.
+2020-01-07T16:00:09+00:00 anwar#03 I: End test public:7:pow.
+2020-01-07T16:00:09+00:00 anwar#02 I: Test public:8:tail is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:10:len, public:9:log, public:8:tail, public:7:pow, public:6:factorial, public:5:equiv_frac.
+2020-01-07T16:00:09+00:00 anwar#06 I: End test public:5:equiv_frac.
+2020-01-07T16:00:09+00:00 anwar#02 I: End test public:8:tail.
+2020-01-07T16:00:09+00:00 anwar#01 I: Test public:9:log is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: 6 tests running: public:12:var, public:11:contains, public:10:len, public:9:log, public:8:tail, public:5:equiv_frac.
+2020-01-07T16:00:09+00:00 anwar#01 I: End test public:9:log.
+2020-01-07T16:00:09+00:00 anwar#05 I: Start test public:10:len.
+2020-01-07T16:00:09+00:00 anwar#03 I: Start test public:11:contains.
+2020-01-07T16:00:09+00:00 anwar#00 I: Still 5 tests running : public:13:scopes, public:12:var, public:11:contains, public:10:len, public:9:log.
+2020-01-07T16:00:09+00:00 anwar#00 I: 5 tests running: public:13:scopes, public:12:var, public:11:contains, public:10:len, public:9:log.
+2020-01-07T16:00:09+00:00 anwar#04 I: Start test public:12:var.
+2020-01-07T16:00:09+00:00 anwar#02 I: Start test public:13:scopes.
+2020-01-07T16:00:09+00:00 anwar#00 I: Still 4 tests running : public:13:scopes, public:12:var, public:11:contains, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#00 I: 4 tests running: public:13:scopes, public:12:var, public:11:contains, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#03 I: Test public:11:contains is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Still 4 tests running : public:13:scopes, public:12:var, public:11:contains, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#00 I: 4 tests running: public:13:scopes, public:12:var, public:11:contains, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#03 I: End test public:11:contains.
+2020-01-07T16:00:09+00:00 anwar#04 I: Test public:12:var is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Still 4 tests running : public:13:scopes, public:12:var, public:11:contains, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#00 I: 4 tests running: public:13:scopes, public:12:var, public:11:contains, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#05 I: Test public:10:len is successful.
+2020-01-07T16:00:09+00:00 anwar#04 I: End test public:12:var.
+2020-01-07T16:00:09+00:00 anwar#02 I: Test public:13:scopes is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Still 3 tests running : public:13:scopes, public:12:var, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#00 I: 3 tests running: public:13:scopes, public:12:var, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#05 I: End test public:10:len.
+2020-01-07T16:00:09+00:00 anwar#02 I: End test public:13:scopes.
+2020-01-07T16:00:09+00:00 anwar#00 I: Still 2 tests running : public:13:scopes, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#00 I: 2 tests running: public:13:scopes, public:10:len.
+2020-01-07T16:00:09+00:00 anwar#00 I: 0 tests running: .
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#06 has ended.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#01 has ended.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#03 has ended.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#04 has ended.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#05 has ended.
+2020-01-07T16:00:09+00:00 anwar#00 I: Worker anwar#02 has ended.
+2020-01-07T16:00:09+00:00 anwar#00 I: Used 6 worker during test execution.
+2020-01-07T16:00:09+00:00 anwar#00 I: Run 2 tests with shard anwar#05.
+2020-01-07T16:00:09+00:00 anwar#00 I: Run 3 tests with shard anwar#02.
+2020-01-07T16:00:09+00:00 anwar#00 I: Run 1 tests with shard anwar#06.
+2020-01-07T16:00:09+00:00 anwar#00 I: Run 3 tests with shard anwar#04.
+2020-01-07T16:00:09+00:00 anwar#00 I: Run 2 tests with shard anwar#01.
+2020-01-07T16:00:09+00:00 anwar#00 I: Run 3 tests with shard anwar#03.
+2020-01-07T16:00:09+00:00 anwar#00 I: ==============
+2020-01-07T16:00:09+00:00 anwar#00 I: Summary:
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:13:scopes is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:10:len is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:12:var is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:11:contains is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:9:log is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:8:tail is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:5:equiv_frac is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:7:pow is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:6:factorial is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:4:volume is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:3:area is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:2:abs is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:1:max_tup is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Test public:0:rev_tup is successful.
+2020-01-07T16:00:09+00:00 anwar#00 I: Ran: 14 tests in: 0.10 seconds.
+2020-01-07T16:00:09+00:00 anwar#00 I: Cases: 14.
+2020-01-07T16:00:09+00:00 anwar#00 I: Tried: 14.
+2020-01-07T16:00:09+00:00 anwar#00 I: Errors: 0.
+2020-01-07T16:00:09+00:00 anwar#00 I: Failures: 0.
+2020-01-07T16:00:09+00:00 anwar#00 I: Skip: 0.
+2020-01-07T16:00:09+00:00 anwar#00 I: Todo: 0.
+2020-01-07T16:00:09+00:00 anwar#00 I: Timeout: 0.
+    </system-out>
+    <system-err />
+  </testsuite>
+</testsuites>

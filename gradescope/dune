@@ -1,0 +1,3 @@
+(tests
+  (names xml_parser)
+  (libraries markup yojson))
