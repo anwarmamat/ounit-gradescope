@@ -1,4 +1,4 @@
-#version: 2.16
+#version: 2.17
 
 #sh install.sh #<(curl -sL https://raw.githubusercontent.com/ocaml/opam/master/shell/install.sh)
 

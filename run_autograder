@@ -11,4 +11,4 @@ cd /autograder/source
 bash ./compile.sh
 
 # Run the autograder code
-bash ./run.sh
+bash ./run.sh > /autograder/results/results.json

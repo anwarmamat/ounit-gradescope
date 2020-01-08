@@ -65,8 +65,8 @@ let to_json lst =
         (
         "tests", 
                     `List [
-                          `Assoc [("name", `String "test 1");("score",`Int 10)]; 
-                          `Assoc [("name", `String "test 2");("score",`Int 20)]
+                          `Assoc [("name", `String "test1");("score",`Int 10)]; 
+                          `Assoc [("name", `String "test2");("score",`Int 20)]
                           ]
         )
                  ] in 
